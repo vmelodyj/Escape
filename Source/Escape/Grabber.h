@@ -38,6 +38,6 @@ private:
 
 	FHitResult GetFirstPhysicsBodyInReach() const;
 
-
-		
+	FVector GetPlayersReach() const;
+	FVector GetPlayersWorldPos() const;
 };
